@@ -12,8 +12,8 @@ namespace Salon.Tests
     public void Save_SaveName_True()
     {
 
-      string name = "Derek";
-      string details = "Does Hair";
+      string name = "John";
+      string details = "Cuts hair";
       Stylist test = new Stylist(name, details);
       string result = test.GetName();
 
@@ -23,8 +23,8 @@ namespace Salon.Tests
       public void Save_SaveDetails_True()
       {
 
-        string name = "Derek";
-        string details = "Does Hair";
+        string name = "John";
+        string details = "Cuts hair";
         Stylist test = new Stylist(name, details);
         string result = test.GetDetail();
 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Jul 26, 2018 at 04:40 AM
+-- Generation Time: Aug 31, 2018 at 01:08 PM
 -- Server version: 5.6.35
 -- PHP Version: 7.0.15
 
@@ -39,10 +39,8 @@ CREATE TABLE `clients` (
 --
 
 INSERT INTO `clients` (`id`, `name`, `stylist_id`) VALUES
-(1, 'Fred', 10),
-(2, 'vcbdgd', 10),
-(3, 'Timmmoe', 9),
-(4, 'Timmmoe', 10);
+(1, 'Derek', 1),
+(2, 'James', 2);
 
 -- --------------------------------------------------------
 
@@ -61,15 +59,8 @@ CREATE TABLE `stylists` (
 --
 
 INSERT INTO `stylists` (`name`, `details`, `id`) VALUES
-('pee', 'pee', 2),
-('pee', 'pee', 3),
-('doggo', 'doggo2', 4),
-('doggo', 'doggo2', 5),
-('doggy', 'DOGGY', 6),
-('doggy', 'DOGGY', 7),
-('doggy', 'DOGGY', 8),
-('doggy', 'DOGGY', 9),
-('John', 'Cuts hair.', 10);
+('John', 'Cuts hair', 1),
+('Brian', 'Doesn\'t cut hair', 2);
 
 --
 -- Indexes for dumped tables

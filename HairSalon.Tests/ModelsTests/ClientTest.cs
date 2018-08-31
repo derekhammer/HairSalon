@@ -11,7 +11,7 @@ namespace Salon.Tests
   [TestMethod]
   public void Save_SaveName_True()
     {
-      string name = "Cody";
+      string name = "Derek";
       int ID = 1;
       Client test = new Client(name, ID);
       string result = test.GetName();
@@ -21,7 +21,7 @@ namespace Salon.Tests
     [TestMethod]
     public void Save_SaveID_True()
       {
-        string name = "Cody";
+        string name = "Derek";
         int ID = 1;
         Client test = new Client(name, ID);
         int result = test.GetId();
@@ -29,7 +29,7 @@ namespace Salon.Tests
         Assert.AreEqual(ID, result);
       }
       [TestMethod]
-      public void 
+      public void
       {
 
       }
